@@ -25,6 +25,7 @@
 		18FD33C32BBA21810049A161 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		18FD33C62BBA22710049A161 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		18FD33C92BBA261A0049A161 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		18FD33CB2BBA2D700049A161 /* Weather-Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Weather-Test-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		18FD33B32BBA1F940049A161 /* Weather Test */ = {
 			isa = PBXGroup;
 			children = (
+				18FD33CB2BBA2D700049A161 /* Weather-Test-Info.plist */,
 				18FD33C82BBA25FD0049A161 /* ViewModels */,
 				18FD33C52BBA22530049A161 /* Services */,
 				18FD33C22BBA21680049A161 /* Models */,
@@ -311,6 +313,7 @@
 				DEVELOPMENT_TEAM = WXJ5L7KHF3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather-Test-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -340,6 +343,7 @@
 				DEVELOPMENT_TEAM = WXJ5L7KHF3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather-Test-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
